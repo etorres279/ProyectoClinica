@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClinicaPsicologicaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tb_administrador">
+    <Key>
+      <PropertyRef Name="id_administrador" />
+    </Key>
+    <Property Name="id_administrador" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombres" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidos" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="id_ubigeo" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="estado" Type="Int32" />
+    <Property Name="Fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_ult_modificacion" Type="DateTime" Precision="3" />
+    <Property Name="Usuario_registro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario_ult_modificacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tb_Ubigeo" Relationship="Self.FK__tb_admini__id_ub__08B54D69" FromRole="tb_administrador" ToRole="tb_Ubigeo" />
+    <NavigationProperty Name="tb_local" Relationship="Self.FK__tb_local__id_adm__0C85DE4D" FromRole="tb_administrador" ToRole="tb_local" />
+  </EntityType>
+  <EntityType Name="tb_cita">
+    <Key>
+      <PropertyRef Name="id_cita" />
+    </Key>
+    <Property Name="id_cita" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="hora" Type="Time" Precision="3" />
+    <Property Name="id_psicologo" Type="Int32" Nullable="false" />
+    <Property Name="id_paciente" Type="Int32" Nullable="false" />
+    <Property Name="id_consultorio" Type="Int32" Nullable="false" />
+    <Property Name="estado" Type="Int32" />
+    <Property Name="id_historial" Type="Int32" />
+    <Property Name="Fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_ult_modificacion" Type="DateTime" Precision="3" />
+    <Property Name="Usuario_registro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario_ult_modificacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="motivo_cita" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="duracion" Type="Int32" />
+    <Property Name="tipo_cita" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="estado_pago" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="confirmacion_asistencia" Type="Int32" />
+    <NavigationProperty Name="tb_historial_clinico" Relationship="Self.FK__tb_cita__id_hist__324172E1" FromRole="tb_cita" ToRole="tb_historial_clinico" />
+  </EntityType>
+  <EntityType Name="tb_consultorio">
+    <Key>
+      <PropertyRef Name="id_consultorio" />
+    </Key>
+    <Property Name="id_consultorio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="inicio" Type="Time" Precision="7" />
+    <Property Name="fin" Type="Time" Precision="7" />
+    <Property Name="id_local" Type="Int32" Nullable="false" />
+    <Property Name="Fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_ult_modificacion" Type="DateTime" Precision="3" />
+    <Property Name="Usuario_registro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario_ult_modificacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tb_local" Relationship="Self.FK__tb_consul__id_lo__1DB06A4F" FromRole="tb_consultorio" ToRole="tb_local" />
+    <NavigationProperty Name="tb_horario" Relationship="Self.fk_consultorio" FromRole="tb_consultorio" ToRole="tb_horario" />
+  </EntityType>
+  <EntityType Name="tb_historial_clinico">
+    <Key>
+      <PropertyRef Name="id_historial" />
+    </Key>
+    <Property Name="id_historial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_paciente" Type="Int32" Nullable="false" />
+    <Property Name="fecha_inicio" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="tb_cita" Relationship="Self.FK__tb_cita__id_hist__324172E1" FromRole="tb_historial_clinico" ToRole="tb_cita" />
+    <NavigationProperty Name="tb_paciente" Relationship="Self.FK__tb_histor__id_pa__151B244E" FromRole="tb_historial_clinico" ToRole="tb_paciente" />
+    <NavigationProperty Name="tb_tratamiento" Relationship="Self.tb_tratamiento_historial" FromRole="tb_historial_clinico" ToRole="tb_tratamiento" />
+  </EntityType>
+  <EntityType Name="tb_horario">
+    <Key>
+      <PropertyRef Name="id_horario" />
+    </Key>
+    <Property Name="id_horario" Type="Int32" Nullable="false" />
+    <Property Name="id_psicologo" Type="Int32" />
+    <Property Name="id_consultorio" Type="Int32" />
+    <Property Name="hora_inicio" Type="Time" Precision="7" />
+    <Property Name="hora_fin" Type="Time" Precision="7" />
+    <NavigationProperty Name="tb_consultorio" Relationship="Self.fk_consultorio" FromRole="tb_horario" ToRole="tb_consultorio" />
+    <NavigationProperty Name="tb_psicologo" Relationship="Self.fk_psicologo" FromRole="tb_horario" ToRole="tb_psicologo" />
+  </EntityType>
+  <EntityType Name="tb_local">
+    <Key>
+      <PropertyRef Name="id_local" />
+    </Key>
+    <Property Name="id_local" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="id_administrador" Type="Int32" Nullable="false" />
+    <Property Name="id_ubigeo" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="Fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_ult_modificacion" Type="DateTime" Precision="3" />
+    <Property Name="Usuario_registro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario_ult_modificacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="inicio" Type="Time" Precision="7" />
+    <Property Name="fin" Type="Time" Precision="7" />
+    <NavigationProperty Name="tb_administrador" Relationship="Self.FK__tb_local__id_adm__0C85DE4D" FromRole="tb_local" ToRole="tb_administrador" />
+    <NavigationProperty Name="tb_consultorio" Relationship="Self.FK__tb_consul__id_lo__1DB06A4F" FromRole="tb_local" ToRole="tb_consultorio" />
+    <NavigationProperty Name="tb_Ubigeo" Relationship="Self.FK__tb_local__id_ubi__0B91BA14" FromRole="tb_local" ToRole="tb_Ubigeo" />
+  </EntityType>
+  <EntityType Name="tb_paciente">
+    <Key>
+      <PropertyRef Name="id_paciente" />
+    </Key>
+    <Property Name="id_paciente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="genero" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="id_ubigeo" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="estado" Type="Int32" />
+    <Property Name="foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_ult_modificacion" Type="DateTime" Precision="3" />
+    <Property Name="Usuario_registro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario_ult_modificacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_nacimiento" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="tb_historial_clinico" Relationship="Self.FK__tb_histor__id_pa__151B244E" FromRole="tb_paciente" ToRole="tb_historial_clinico" />
+    <NavigationProperty Name="tb_Ubigeo" Relationship="Self.FK__tb_pacien__id_ub__05D8E0BE" FromRole="tb_paciente" ToRole="tb_Ubigeo" />
+  </EntityType>
+  <EntityType Name="tb_psicologo">
+    <Key>
+      <PropertyRef Name="id_psicologo" />
+    </Key>
+    <Property Name="id_psicologo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="especialidad" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="id_ubigeo" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="estado" Type="Int32" />
+    <Property Name="foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_ult_modificacion" Type="DateTime" Precision="3" />
+    <Property Name="Usuario_registro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario_ult_modificacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tb_horario" Relationship="Self.fk_psicologo" FromRole="tb_psicologo" ToRole="tb_horario" />
+    <NavigationProperty Name="tb_Ubigeo" Relationship="Self.FK__tb_psicol__id_ub__76969D2E" FromRole="tb_psicologo" ToRole="tb_Ubigeo" />
+  </EntityType>
+  <EntityType Name="tb_tratamiento">
+    <Key>
+      <PropertyRef Name="id_tratamiento" />
+    </Key>
+    <Property Name="id_tratamiento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_ult_modificacion" Type="DateTime" Precision="3" />
+    <Property Name="Usuario_registro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario_ult_modificacion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tb_historial_clinico" Relationship="Self.tb_tratamiento_historial" FromRole="tb_tratamiento" ToRole="tb_historial_clinico" />
+  </EntityType>
+  <EntityType Name="tb_Ubigeo">
+    <Key>
+      <PropertyRef Name="id_ubigeo" />
+    </Key>
+    <Property Name="id_ubigeo" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="idDepa" Type="String" MaxLength="255" FixedLength="true" Unicode="true" />
+    <Property Name="idProv" Type="String" MaxLength="255" FixedLength="true" Unicode="true" />
+    <Property Name="idDist" Type="String" MaxLength="255" FixedLength="true" Unicode="true" />
+    <Property Name="Departamento" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Provincia" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Distrito" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tb_administrador" Relationship="Self.FK__tb_admini__id_ub__08B54D69" FromRole="tb_Ubigeo" ToRole="tb_administrador" />
+    <NavigationProperty Name="tb_local" Relationship="Self.FK__tb_local__id_ubi__0B91BA14" FromRole="tb_Ubigeo" ToRole="tb_local" />
+    <NavigationProperty Name="tb_paciente" Relationship="Self.FK__tb_pacien__id_ub__05D8E0BE" FromRole="tb_Ubigeo" ToRole="tb_paciente" />
+    <NavigationProperty Name="tb_psicologo" Relationship="Self.FK__tb_psicol__id_ub__76969D2E" FromRole="tb_Ubigeo" ToRole="tb_psicologo" />
+  </EntityType>
+  <EntityType Name="tb_Usuarios">
+    <Key>
+      <PropertyRef Name="UsuarioID" />
+    </Key>
+    <Property Name="UsuarioID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Pass_Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Niv_Usuario" Type="Int32" Nullable="false" />
+    <Property Name="est_usuario" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__tb_admini__id_ub__08B54D69">
+    <End Role="tb_Ubigeo" Type="Self.tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="tb_administrador" Type="Self.tb_administrador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Ubigeo">
+        <PropertyRef Name="id_ubigeo" />
+      </Principal>
+      <Dependent Role="tb_administrador">
+        <PropertyRef Name="id_ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_local__id_adm__0C85DE4D">
+    <End Role="tb_administrador" Type="Self.tb_administrador" Multiplicity="1" />
+    <End Role="tb_local" Type="Self.tb_local" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_administrador">
+        <PropertyRef Name="id_administrador" />
+      </Principal>
+      <Dependent Role="tb_local">
+        <PropertyRef Name="id_administrador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_cita__id_hist__324172E1">
+    <End Role="tb_historial_clinico" Type="Self.tb_historial_clinico" Multiplicity="0..1" />
+    <End Role="tb_cita" Type="Self.tb_cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_historial_clinico">
+        <PropertyRef Name="id_historial" />
+      </Principal>
+      <Dependent Role="tb_cita">
+        <PropertyRef Name="id_historial" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_consul__id_lo__1DB06A4F">
+    <End Role="tb_local" Type="Self.tb_local" Multiplicity="1" />
+    <End Role="tb_consultorio" Type="Self.tb_consultorio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_local">
+        <PropertyRef Name="id_local" />
+      </Principal>
+      <Dependent Role="tb_consultorio">
+        <PropertyRef Name="id_local" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_consultorio">
+    <End Role="tb_consultorio" Type="Self.tb_consultorio" Multiplicity="0..1" />
+    <End Role="tb_horario" Type="Self.tb_horario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_consultorio">
+        <PropertyRef Name="id_consultorio" />
+      </Principal>
+      <Dependent Role="tb_horario">
+        <PropertyRef Name="id_consultorio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_histor__id_pa__151B244E">
+    <End Role="tb_paciente" Type="Self.tb_paciente" Multiplicity="1" />
+    <End Role="tb_historial_clinico" Type="Self.tb_historial_clinico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_paciente">
+        <PropertyRef Name="id_paciente" />
+      </Principal>
+      <Dependent Role="tb_historial_clinico">
+        <PropertyRef Name="id_paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_psicologo">
+    <End Role="tb_psicologo" Type="Self.tb_psicologo" Multiplicity="0..1" />
+    <End Role="tb_horario" Type="Self.tb_horario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_psicologo">
+        <PropertyRef Name="id_psicologo" />
+      </Principal>
+      <Dependent Role="tb_horario">
+        <PropertyRef Name="id_psicologo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_local__id_ubi__0B91BA14">
+    <End Role="tb_Ubigeo" Type="Self.tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="tb_local" Type="Self.tb_local" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Ubigeo">
+        <PropertyRef Name="id_ubigeo" />
+      </Principal>
+      <Dependent Role="tb_local">
+        <PropertyRef Name="id_ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_pacien__id_ub__05D8E0BE">
+    <End Role="tb_Ubigeo" Type="Self.tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="tb_paciente" Type="Self.tb_paciente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Ubigeo">
+        <PropertyRef Name="id_ubigeo" />
+      </Principal>
+      <Dependent Role="tb_paciente">
+        <PropertyRef Name="id_ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_psicol__id_ub__76969D2E">
+    <End Role="tb_Ubigeo" Type="Self.tb_Ubigeo" Multiplicity="0..1" />
+    <End Role="tb_psicologo" Type="Self.tb_psicologo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Ubigeo">
+        <PropertyRef Name="id_ubigeo" />
+      </Principal>
+      <Dependent Role="tb_psicologo">
+        <PropertyRef Name="id_ubigeo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tb_tratamiento_historial">
+    <End Role="tb_historial_clinico" Type="Self.tb_historial_clinico" Multiplicity="*" />
+    <End Role="tb_tratamiento" Type="Self.tb_tratamiento" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="ClinPsicologicaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_administrador" EntityType="Self.tb_administrador" />
+    <EntitySet Name="tb_cita" EntityType="Self.tb_cita" />
+    <EntitySet Name="tb_consultorio" EntityType="Self.tb_consultorio" />
+    <EntitySet Name="tb_historial_clinico" EntityType="Self.tb_historial_clinico" />
+    <EntitySet Name="tb_horario" EntityType="Self.tb_horario" />
+    <EntitySet Name="tb_local" EntityType="Self.tb_local" />
+    <EntitySet Name="tb_paciente" EntityType="Self.tb_paciente" />
+    <EntitySet Name="tb_psicologo" EntityType="Self.tb_psicologo" />
+    <EntitySet Name="tb_tratamiento" EntityType="Self.tb_tratamiento" />
+    <EntitySet Name="tb_Ubigeo" EntityType="Self.tb_Ubigeo" />
+    <EntitySet Name="tb_Usuarios" EntityType="Self.tb_Usuarios" />
+    <AssociationSet Name="FK__tb_admini__id_ub__08B54D69" Association="Self.FK__tb_admini__id_ub__08B54D69">
+      <End Role="tb_Ubigeo" EntitySet="tb_Ubigeo" />
+      <End Role="tb_administrador" EntitySet="tb_administrador" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_local__id_adm__0C85DE4D" Association="Self.FK__tb_local__id_adm__0C85DE4D">
+      <End Role="tb_administrador" EntitySet="tb_administrador" />
+      <End Role="tb_local" EntitySet="tb_local" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_cita__id_hist__324172E1" Association="Self.FK__tb_cita__id_hist__324172E1">
+      <End Role="tb_historial_clinico" EntitySet="tb_historial_clinico" />
+      <End Role="tb_cita" EntitySet="tb_cita" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_consul__id_lo__1DB06A4F" Association="Self.FK__tb_consul__id_lo__1DB06A4F">
+      <End Role="tb_local" EntitySet="tb_local" />
+      <End Role="tb_consultorio" EntitySet="tb_consultorio" />
+    </AssociationSet>
+    <AssociationSet Name="fk_consultorio" Association="Self.fk_consultorio">
+      <End Role="tb_consultorio" EntitySet="tb_consultorio" />
+      <End Role="tb_horario" EntitySet="tb_horario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_histor__id_pa__151B244E" Association="Self.FK__tb_histor__id_pa__151B244E">
+      <End Role="tb_paciente" EntitySet="tb_paciente" />
+      <End Role="tb_historial_clinico" EntitySet="tb_historial_clinico" />
+    </AssociationSet>
+    <AssociationSet Name="fk_psicologo" Association="Self.fk_psicologo">
+      <End Role="tb_psicologo" EntitySet="tb_psicologo" />
+      <End Role="tb_horario" EntitySet="tb_horario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_local__id_ubi__0B91BA14" Association="Self.FK__tb_local__id_ubi__0B91BA14">
+      <End Role="tb_Ubigeo" EntitySet="tb_Ubigeo" />
+      <End Role="tb_local" EntitySet="tb_local" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_pacien__id_ub__05D8E0BE" Association="Self.FK__tb_pacien__id_ub__05D8E0BE">
+      <End Role="tb_Ubigeo" EntitySet="tb_Ubigeo" />
+      <End Role="tb_paciente" EntitySet="tb_paciente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_psicol__id_ub__76969D2E" Association="Self.FK__tb_psicol__id_ub__76969D2E">
+      <End Role="tb_Ubigeo" EntitySet="tb_Ubigeo" />
+      <End Role="tb_psicologo" EntitySet="tb_psicologo" />
+    </AssociationSet>
+    <AssociationSet Name="tb_tratamiento_historial" Association="Self.tb_tratamiento_historial">
+      <End Role="tb_historial_clinico" EntitySet="tb_historial_clinico" />
+      <End Role="tb_tratamiento" EntitySet="tb_tratamiento" />
+    </AssociationSet>
+    <FunctionImport Name="usp_ActualizarAdministrador">
+      <Parameter Name="id_admin" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Apellido" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ActualizarCita">
+      <Parameter Name="id_cita" Mode="In" Type="Int32" />
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="hora" Mode="In" Type="Time" />
+      <Parameter Name="id_psicologo" Mode="In" Type="Int32" />
+      <Parameter Name="id_paciente" Mode="In" Type="Int32" />
+      <Parameter Name="id_consultorio" Mode="In" Type="Int32" />
+      <Parameter Name="estado" Mode="In" Type="Int32" />
+      <Parameter Name="motivo_cita" Mode="In" Type="String" />
+      <Parameter Name="duracion" Mode="In" Type="Int32" />
+      <Parameter Name="tipo_cita" Mode="In" Type="String" />
+      <Parameter Name="precio" Mode="In" Type="Decimal" />
+      <Parameter Name="estado_pago" Mode="In" Type="String" />
+      <Parameter Name="confirmacion_asistencia" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ActualizarConsultorio">
+      <Parameter Name="id_consultorio" Mode="In" Type="Int32" />
+      <Parameter Name="telefono" Mode="In" Type="String" />
+      <Parameter Name="inicio" Mode="In" Type="Time" />
+      <Parameter Name="fin" Mode="In" Type="Time" />
+      <Parameter Name="id_local" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ActualizarLocal">
+      <Parameter Name="id_local" Mode="In" Type="String" />
+      <Parameter Name="direccion" Mode="In" Type="String" />
+      <Parameter Name="telefono" Mode="In" Type="String" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="Administrador" Mode="In" Type="Int32" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ActualizarPaciente">
+      <Parameter Name="vid_pac" Mode="In" Type="Int32" />
+      <Parameter Name="vnom" Mode="In" Type="String" />
+      <Parameter Name="vape" Mode="In" Type="String" />
+      <Parameter Name="vgenero" Mode="In" Type="String" />
+      <Parameter Name="vtel" Mode="In" Type="String" />
+      <Parameter Name="vcorreo" Mode="In" Type="String" />
+      <Parameter Name="vid_ubigeo" Mode="In" Type="String" />
+      <Parameter Name="vestado" Mode="In" Type="Int32" />
+      <Parameter Name="vfoto" Mode="In" Type="Binary" />
+      <Parameter Name="vedad" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ActualizarPsicologo">
+      <Parameter Name="id_psicologo" Mode="In" Type="Int32" />
+      <Parameter Name="nombre" Mode="In" Type="String" />
+      <Parameter Name="especialidad" Mode="In" Type="String" />
+      <Parameter Name="foto" Mode="In" Type="Binary" />
+      <Parameter Name="telefono" Mode="In" Type="String" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="id_ubigeo" Mode="In" Type="Int32" />
+      <Parameter Name="estado" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ActualizarTratamiento">
+      <Parameter Name="id_tratamiento" Mode="In" Type="Int32" />
+      <Parameter Name="descripcion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ActualizarUbigeo">
+      <Parameter Name="id_ubigeo" Mode="In" Type="String" />
+      <Parameter Name="idDepa" Mode="In" Type="String" />
+      <Parameter Name="idProv" Mode="In" Type="String" />
+      <Parameter Name="idDist" Mode="In" Type="String" />
+      <Parameter Name="Departamento" Mode="In" Type="String" />
+      <Parameter Name="Provincia" Mode="In" Type="String" />
+      <Parameter Name="Distrito" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarAdmin" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarAdmin_Result)">
+      <Parameter Name="IdAdministrador" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarCita" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarCita_Result)">
+      <Parameter Name="id_cita" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarConsultorio" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarConsultorio_Result)">
+      <Parameter Name="id_consultorio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarConsultoriosPorLocal" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarConsultoriosPorLocal_Result)">
+      <Parameter Name="Direccion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarLocal" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarLocal_Result)">
+      <Parameter Name="id_local" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarLocalesPorDepartamento" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarLocalesPorDepartamento_Result)">
+      <Parameter Name="Departamento" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarPaciente" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarPaciente_Result)">
+      <Parameter Name="vid_pac" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarPsicologo" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarPsicologo_Result)">
+      <Parameter Name="id_psicologo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarPsicologosPorLocal" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarPsicologosPorLocal_Result)">
+      <Parameter Name="Direccion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarTratamiento" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarTratamiento_Result)">
+      <Parameter Name="id_tratamiento" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ConsultarUbigeo" ReturnType="Collection(ClinicaPsicologicaModel.usp_ConsultarUbigeo_Result)">
+      <Parameter Name="id_ubigeo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_DeleteAdministrador">
+      <Parameter Name="id_admin" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_DeleteConsultorio">
+      <Parameter Name="id_consultorio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_DeleteLocal">
+      <Parameter Name="id_Local" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_DeletePaciente">
+      <Parameter Name="id_paciente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_DeletePsicologo">
+      <Parameter Name="id_Psicologo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_DeleteTratamiento">
+      <Parameter Name="id_Tratamiento" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarAdministrador">
+      <Parameter Name="id_admin" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarCita">
+      <Parameter Name="id_cita" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarConsultorio">
+      <Parameter Name="id_consultorio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarLocal">
+      <Parameter Name="id_local" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarPaciente">
+      <Parameter Name="vid_pac" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarPsicologo">
+      <Parameter Name="id_psicologo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarTratamiento">
+      <Parameter Name="id_tratamiento" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_EliminarUbigeo">
+      <Parameter Name="id_ubigeo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertAdministrador">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Apellido" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+      <Parameter Name="Fecha_registro" Mode="In" Type="DateTime" />
+      <Parameter Name="Fecha_ult_modificacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarAdministrador">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Apellido" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarCita">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="hora" Mode="In" Type="Time" />
+      <Parameter Name="id_psicologo" Mode="In" Type="Int32" />
+      <Parameter Name="id_paciente" Mode="In" Type="Int32" />
+      <Parameter Name="id_consultorio" Mode="In" Type="Int32" />
+      <Parameter Name="estado" Mode="In" Type="Int32" />
+      <Parameter Name="motivo_cita" Mode="In" Type="String" />
+      <Parameter Name="duracion" Mode="In" Type="Int32" />
+      <Parameter Name="tipo_cita" Mode="In" Type="String" />
+      <Parameter Name="precio" Mode="In" Type="Decimal" />
+      <Parameter Name="estado_pago" Mode="In" Type="String" />
+      <Parameter Name="confirmacion_asistencia" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarConsultorio">
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Inicio" Mode="In" Type="Time" />
+      <Parameter Name="Fin" Mode="In" Type="Time" />
+      <Parameter Name="Id_local" Mode="In" Type="Int32" />
+      <Parameter Name="Fecha_registro" Mode="In" Type="DateTime" />
+      <Parameter Name="Fecha_ult_modificacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarLocal">
+      <Parameter Name="Direccion" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Id_administrador" Mode="In" Type="Int32" />
+      <Parameter Name="Id_ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarPaciente">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Apellido" Mode="In" Type="String" />
+      <Parameter Name="Genero" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+      <Parameter Name="Foto" Mode="In" Type="Binary" />
+      <Parameter Name="Fecha_Naci" Mode="In" Type="DateTime" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarPsicologo">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Especialidad" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+      <Parameter Name="Foto" Mode="In" Type="Binary" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarTratamiento">
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="Fecha_registro" Mode="In" Type="DateTime" />
+      <Parameter Name="Fecha_ult_modificacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertarUbigeo">
+      <Parameter Name="id_ubigeo" Mode="In" Type="String" />
+      <Parameter Name="idDepa" Mode="In" Type="String" />
+      <Parameter Name="idProv" Mode="In" Type="String" />
+      <Parameter Name="idDist" Mode="In" Type="String" />
+      <Parameter Name="Departamento" Mode="In" Type="String" />
+      <Parameter Name="Provincia" Mode="In" Type="String" />
+      <Parameter Name="Distrito" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_InsertLocal">
+      <Parameter Name="Direccion" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Administrador" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ListarAdmins" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarAdmins_Result)" />
+    <FunctionImport Name="usp_ListarCitas" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarCitas_Result)" />
+    <FunctionImport Name="usp_ListarConsultorio" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarConsultorio_Result)" />
+    <FunctionImport Name="usp_ListarLocal" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarLocal_Result)" />
+    <FunctionImport Name="usp_ListarLocales" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarLocales_Result)" />
+    <FunctionImport Name="usp_ListarPaciente" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarPaciente_Result)" />
+    <FunctionImport Name="usp_ListarPsicologo" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarPsicologo_Result)" />
+    <FunctionImport Name="usp_ListarTratamiento" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarTratamiento_Result)" />
+    <FunctionImport Name="usp_ListarUbigeo" ReturnType="Collection(ClinicaPsicologicaModel.usp_ListarUbigeo_Result)" />
+    <FunctionImport Name="usp_ObtenerDatosCitaPorPaciente" ReturnType="Collection(ClinicaPsicologicaModel.usp_ObtenerDatosCitaPorPaciente_Result)">
+      <Parameter Name="CodigoPaciente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_PsicologosDisponiblesEnHora" ReturnType="Collection(ClinicaPsicologicaModel.usp_PsicologosDisponiblesEnHora_Result)">
+      <Parameter Name="horaInicio" Mode="In" Type="Time" />
+    </FunctionImport>
+    <FunctionImport Name="usp_RegistrarHistorialClinico">
+      <Parameter Name="vidPac" Mode="In" Type="Int32" />
+      <Parameter Name="vidPsico" Mode="In" Type="Int32" />
+      <Parameter Name="vfecInicio" Mode="In" Type="DateTime" />
+      <Parameter Name="vfecFin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="usp_TotalPacientesAnual" ReturnType="Collection(ClinicaPsicologicaModel.usp_TotalPacientesAnual_Result)" />
+    <FunctionImport Name="usp_UpdateAdministrador">
+      <Parameter Name="id_admin" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Apellido" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+      <Parameter Name="Fecha_registro" Mode="In" Type="DateTime" />
+      <Parameter Name="Fecha_ult_modificacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_UpdateConsultorio">
+      <Parameter Name="id_Consultorio" Mode="In" Type="Int32" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Inicio" Mode="In" Type="Time" />
+      <Parameter Name="Fin" Mode="In" Type="Time" />
+      <Parameter Name="Id_local" Mode="In" Type="Int32" />
+      <Parameter Name="Fecha_registro" Mode="In" Type="DateTime" />
+      <Parameter Name="Fecha_ult_modificacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_UpdateLocal">
+      <Parameter Name="id_local" Mode="In" Type="Int32" />
+      <Parameter Name="Direccion" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Id_administrador" Mode="In" Type="Int32" />
+      <Parameter Name="Id_ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_UpdatePaciente">
+      <Parameter Name="id_paciente" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Apellido" Mode="In" Type="String" />
+      <Parameter Name="Genero" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+      <Parameter Name="Foto" Mode="In" Type="Binary" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+      <Parameter Name="Fecha_Naci" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="usp_UpdatePsicologo">
+      <Parameter Name="id_psicologo" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Especialidad" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Ubigeo" Mode="In" Type="String" />
+      <Parameter Name="Estado" Mode="In" Type="Int32" />
+      <Parameter Name="Foto" Mode="In" Type="Binary" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_UpdateTratamiento">
+      <Parameter Name="id_tratamiento" Mode="In" Type="Int32" />
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="Fecha_registro" Mode="In" Type="DateTime" />
+      <Parameter Name="Fecha_ult_modificacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Usuario_registro" Mode="In" Type="String" />
+      <Parameter Name="Usuario_ult_modificacion" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="usp_ConsultarAdmin_Result">
+    <Property Type="Int32" Name="id_administrador" Nullable="false" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="apellidos" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ubigeoAdmin" Nullable="true" MaxLength="6" />
+    <Property Type="Int32" Name="estado" Nullable="true" />
+    <Property Type="String" Name="estadoAdmin" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarCita_Result">
+    <Property Type="Int32" Name="id_cita" Nullable="false" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+    <Property Type="Time" Name="hora" Nullable="true" />
+    <Property Type="Int32" Name="id_paciente" Nullable="false" />
+    <Property Type="String" Name="nom_pac" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ape_pac" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="id_consultorio" Nullable="false" />
+    <Property Type="Int32" Name="id_psicologo" Nullable="false" />
+    <Property Type="String" Name="nomPsico" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="especialidad" Nullable="false" MaxLength="80" />
+    <Property Type="Int32" Name="estado" Nullable="true" />
+    <Property Type="String" Name="estadoCita" Nullable="true" MaxLength="9" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarConsultorio_Result">
+    <Property Type="Int32" Name="id_consultorio" Nullable="false" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="Time" Name="inicio" Nullable="true" />
+    <Property Type="Time" Name="fin" Nullable="true" />
+    <Property Type="Int32" Name="id_local" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarConsultoriosPorLocal_Result">
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="200" />
+    <Property Type="Time" Name="inicio" Nullable="true" />
+    <Property Type="Time" Name="fin" Nullable="true" />
+    <Property Type="Int32" Name="id_local" Nullable="false" />
+    <Property Type="Int32" Name="id_consultorio" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarLocal_Result">
+    <Property Type="Int32" Name="id_local" Nullable="false" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="id_administrador" Nullable="false" />
+    <Property Type="String" Name="id_ubigeo" Nullable="true" MaxLength="6" />
+    <Property Type="DateTime" Name="Fecha_registro" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha_ult_modificacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Usuario_registro" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Usuario_ult_modificacion" Nullable="true" MaxLength="200" />
+    <Property Type="Time" Name="inicio" Nullable="true" />
+    <Property Type="Time" Name="fin" Nullable="true" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="nombre_administrador" Nullable="false" MaxLength="161" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarLocalesPorDepartamento_Result">
+    <Property Type="String" Name="nombre_administrador" Nullable="false" MaxLength="161" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="200" />
+    <Property Type="Time" Name="inicio" Nullable="true" />
+    <Property Type="Time" Name="fin" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarPaciente_Result">
+    <Property Type="Int32" Name="id_paciente" Nullable="false" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellidos" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="genero" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="50" />
+    <Property Type="Binary" Name="foto" Nullable="true" />
+    <Property Type="String" Name="id_ubigeo" Nullable="true" MaxLength="6" />
+    <Property Type="DateTime" Name="Fecha_registro" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha_ult_modificacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Usuario_registro" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Usuario_ult_modificacion" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="nombre_departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="nombre_provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="nombre_distrito" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="estado" Nullable="true" />
+    <Property Type="String" Name="estadoPac" Nullable="true" MaxLength="8" />
+    <Property Type="DateTime" Name="fecha_nacimiento" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarPsicologo_Result">
+    <Property Type="Int32" Name="id_psicologo" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="especialidad" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="200" />
+    <Property Type="Binary" Name="foto" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="Usuario_registro" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Usuario_ult_modificacion" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="Fecha_registro" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha_ult_modificacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="id_ubigeo" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="estadoPsico" Nullable="false" MaxLength="11" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarPsicologosPorLocal_Result">
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="especialidad" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="estadoPsico" Nullable="false" MaxLength="11" />
+    <Property Type="Int32" Name="id_local" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarTratamiento_Result">
+    <Property Type="Int32" Name="id_tratamiento" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="usp_ConsultarUbigeo_Result">
+    <Property Type="String" Name="id_ubigeo" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="idDepa" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="idProv" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="idDist" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarAdmins_Result">
+    <Property Type="Int32" Name="id_administrador" Nullable="false" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="apellidos" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="id_ubigeo" Nullable="true" MaxLength="6" />
+    <Property Type="String" Name="departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="distrito" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="estado" Nullable="true" />
+    <Property Type="String" Name="estadoAdmin" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarCitas_Result">
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+    <Property Type="Time" Name="hora" Nullable="true" />
+    <Property Type="String" Name="nom_pac" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ape_pac" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="tel_paciente" Nullable="true" MaxLength="15" />
+    <Property Type="Int32" Name="id_consultorio" Nullable="false" />
+    <Property Type="String" Name="dir_local" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="tel_local" Nullable="true" MaxLength="15" />
+    <Property Type="Int32" Name="id_psicologo" Nullable="false" />
+    <Property Type="String" Name="nomPsico" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="especialidad" Nullable="false" MaxLength="80" />
+    <Property Type="Int32" Name="estado" Nullable="true" />
+    <Property Type="String" Name="estadoCita" Nullable="true" MaxLength="9" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarConsultorio_Result">
+    <Property Type="Int32" Name="id_consultorio" Nullable="false" />
+    <Property Type="String" Name="Telefono_consultorio" Nullable="true" MaxLength="15" />
+    <Property Type="Time" Name="Inicio_consultorio" Nullable="true" />
+    <Property Type="Time" Name="Fin_consultorio" Nullable="true" />
+    <Property Type="String" Name="Direccion_local_consultorio" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Telefono_local_consultorio" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Correo_local_consultorio" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarLocal_Result">
+    <Property Type="Int32" Name="id_local" Nullable="false" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="Int32" Name="id_administrador" Nullable="false" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="apellidos" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="tel_admin" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarLocales_Result">
+    <Property Type="Int32" Name="id_local" Nullable="false" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="Int32" Name="id_administrador" Nullable="false" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="apellidos" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="tel_admin" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarPaciente_Result">
+    <Property Type="Int32" Name="id_paciente" Nullable="false" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellidos" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="genero" Nullable="false" MaxLength="1" />
+    <Property Type="Binary" Name="foto" Nullable="true" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="id_ubigeo" Nullable="true" MaxLength="6" />
+    <Property Type="String" Name="nombre_departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="nombre_provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="nombre_distrito" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="estado" Nullable="true" />
+    <Property Type="String" Name="estadoPac" Nullable="true" MaxLength="8" />
+    <Property Type="DateTime" Name="Fecha_registro" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha_ult_modificacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Usuario_registro" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Usuario_ult_modificacion" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="fecha_nacimiento" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarPsicologo_Result">
+    <Property Type="Int32" Name="id_psicologo" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="especialidad" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="200" />
+    <Property Type="Binary" Name="foto" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="id_ubigeo" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="estadoPsico" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarTratamiento_Result">
+    <Property Type="Int32" Name="id_tratamiento" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="usp_ListarUbigeo_Result">
+    <Property Type="String" Name="id_ubigeo" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="Departamento" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Provincia" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Distrito" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="id_local" Nullable="false" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="id_administrador" Nullable="false" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="usp_ObtenerDatosCitaPorPaciente_Result">
+    <Property Type="String" Name="NombrePaciente" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ApellidoPaciente" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="FechaCita" Nullable="false" />
+    <Property Type="String" Name="NombrePsicologo" Nullable="false" MaxLength="80" />
+    <Property Type="Int32" Name="IdConsultorio" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="usp_PsicologosDisponiblesEnHora_Result">
+    <Property Type="String" Name="NombrePsicologo" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="Especialidad" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="Telefono" Nullable="false" MaxLength="15" />
+    <Property Type="Time" Name="HoraInicio" Nullable="true" />
+    <Property Type="Time" Name="HoraFin" Nullable="true" />
+    <Property Type="Int32" Name="IdConsultorio" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_TotalPacientesAnual_Result">
+    <Property Type="Int32" Name="Año" Nullable="true" />
+    <Property Type="Int32" Name="TotalPacientes" Nullable="true" />
+  </ComplexType>
+</Schema>

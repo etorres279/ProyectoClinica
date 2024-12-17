@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClinicaPsicologicaModelStoreContainer" CdmEntityContainer="ClinPsicologicaEntities">
+    <EntitySetMapping Name="tb_administrador">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_administrador">
+        <MappingFragment StoreEntitySet="tb_administrador">
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_cita">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_cita">
+        <MappingFragment StoreEntitySet="tb_cita">
+          <ScalarProperty Name="id_cita" ColumnName="id_cita" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="id_psicologo" ColumnName="id_psicologo" />
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="id_historial" ColumnName="id_historial" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+          <ScalarProperty Name="motivo_cita" ColumnName="motivo_cita" />
+          <ScalarProperty Name="duracion" ColumnName="duracion" />
+          <ScalarProperty Name="tipo_cita" ColumnName="tipo_cita" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="estado_pago" ColumnName="estado_pago" />
+          <ScalarProperty Name="confirmacion_asistencia" ColumnName="confirmacion_asistencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_consultorio">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_consultorio">
+        <MappingFragment StoreEntitySet="tb_consultorio">
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="fin" ColumnName="fin" />
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_historial_clinico">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_historial_clinico">
+        <MappingFragment StoreEntitySet="tb_historial_clinico">
+          <ScalarProperty Name="id_historial" ColumnName="id_historial" />
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="fecha_inicio" ColumnName="fecha_inicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_horario">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_horario">
+        <MappingFragment StoreEntitySet="tb_horario">
+          <ScalarProperty Name="id_horario" ColumnName="id_horario" />
+          <ScalarProperty Name="id_psicologo" ColumnName="id_psicologo" />
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+          <ScalarProperty Name="hora_inicio" ColumnName="hora_inicio" />
+          <ScalarProperty Name="hora_fin" ColumnName="hora_fin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_local">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_local">
+        <MappingFragment StoreEntitySet="tb_local">
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="fin" ColumnName="fin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_paciente">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_paciente">
+        <MappingFragment StoreEntitySet="tb_paciente">
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_psicologo">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_psicologo">
+        <MappingFragment StoreEntitySet="tb_psicologo">
+          <ScalarProperty Name="id_psicologo" ColumnName="id_psicologo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_tratamiento">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_tratamiento">
+        <MappingFragment StoreEntitySet="tb_tratamiento">
+          <ScalarProperty Name="id_tratamiento" ColumnName="id_tratamiento" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Ubigeo">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_Ubigeo">
+        <MappingFragment StoreEntitySet="tb_Ubigeo">
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="idDepa" ColumnName="idDepa" />
+          <ScalarProperty Name="idProv" ColumnName="idProv" />
+          <ScalarProperty Name="idDist" ColumnName="idDist" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Usuarios">
+      <EntityTypeMapping TypeName="ClinicaPsicologicaModel.tb_Usuarios">
+        <MappingFragment StoreEntitySet="tb_Usuarios">
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="Pass_Usuario" ColumnName="Pass_Usuario" />
+          <ScalarProperty Name="Niv_Usuario" ColumnName="Niv_Usuario" />
+          <ScalarProperty Name="est_usuario" ColumnName="est_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="tb_tratamiento_historial" TypeName="ClinicaPsicologicaModel.tb_tratamiento_historial" StoreEntitySet="tb_tratamiento_historial">
+      <EndProperty Name="tb_historial_clinico">
+        <ScalarProperty Name="id_historial" ColumnName="id_historial" />
+      </EndProperty>
+      <EndProperty Name="tb_tratamiento">
+        <ScalarProperty Name="id_tratamiento" ColumnName="id_tratamiento" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="usp_ActualizarAdministrador" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarAdministrador" />
+    <FunctionImportMapping FunctionImportName="usp_ActualizarCita" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarCita" />
+    <FunctionImportMapping FunctionImportName="usp_ActualizarConsultorio" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarConsultorio" />
+    <FunctionImportMapping FunctionImportName="usp_ActualizarLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarLocal" />
+    <FunctionImportMapping FunctionImportName="usp_ActualizarPaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarPaciente" />
+    <FunctionImportMapping FunctionImportName="usp_ActualizarPsicologo" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarPsicologo" />
+    <FunctionImportMapping FunctionImportName="usp_ActualizarTratamiento" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarTratamiento" />
+    <FunctionImportMapping FunctionImportName="usp_ActualizarUbigeo" FunctionName="ClinicaPsicologicaModel.Store.usp_ActualizarUbigeo" />
+    <FunctionImportMapping FunctionImportName="usp_ConsultarAdmin" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarAdmin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarAdmin_Result">
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="ubigeoAdmin" ColumnName="ubigeoAdmin" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="estadoAdmin" ColumnName="estadoAdmin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarCita" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarCita">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarCita_Result">
+          <ScalarProperty Name="id_cita" ColumnName="id_cita" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="nom_pac" ColumnName="nom_pac" />
+          <ScalarProperty Name="ape_pac" ColumnName="ape_pac" />
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+          <ScalarProperty Name="id_psicologo" ColumnName="id_psicologo" />
+          <ScalarProperty Name="nomPsico" ColumnName="nomPsico" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="estadoCita" ColumnName="estadoCita" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarConsultorio" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarConsultorio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarConsultorio_Result">
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="fin" ColumnName="fin" />
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarConsultoriosPorLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarConsultoriosPorLocal">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarConsultoriosPorLocal_Result">
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="fin" ColumnName="fin" />
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarLocal">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarLocal_Result">
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="fin" ColumnName="fin" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+          <ScalarProperty Name="nombre_administrador" ColumnName="nombre_administrador" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarLocalesPorDepartamento" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarLocalesPorDepartamento">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarLocalesPorDepartamento_Result">
+          <ScalarProperty Name="nombre_administrador" ColumnName="nombre_administrador" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="inicio" ColumnName="inicio" />
+          <ScalarProperty Name="fin" ColumnName="fin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarPaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarPaciente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarPaciente_Result">
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+          <ScalarProperty Name="nombre_departamento" ColumnName="nombre_departamento" />
+          <ScalarProperty Name="nombre_provincia" ColumnName="nombre_provincia" />
+          <ScalarProperty Name="nombre_distrito" ColumnName="nombre_distrito" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="estadoPac" ColumnName="estadoPac" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarPsicologo" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarPsicologo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarPsicologo_Result">
+          <ScalarProperty Name="id_psicologo" ColumnName="id_psicologo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+          <ScalarProperty Name="estadoPsico" ColumnName="estadoPsico" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarPsicologosPorLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarPsicologosPorLocal">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarPsicologosPorLocal_Result">
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="estadoPsico" ColumnName="estadoPsico" />
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarTratamiento" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarTratamiento">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarTratamiento_Result">
+          <ScalarProperty Name="id_tratamiento" ColumnName="id_tratamiento" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ConsultarUbigeo" FunctionName="ClinicaPsicologicaModel.Store.usp_ConsultarUbigeo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ConsultarUbigeo_Result">
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="idDepa" ColumnName="idDepa" />
+          <ScalarProperty Name="idProv" ColumnName="idProv" />
+          <ScalarProperty Name="idDist" ColumnName="idDist" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_DeleteAdministrador" FunctionName="ClinicaPsicologicaModel.Store.usp_DeleteAdministrador" />
+    <FunctionImportMapping FunctionImportName="usp_DeleteConsultorio" FunctionName="ClinicaPsicologicaModel.Store.usp_DeleteConsultorio" />
+    <FunctionImportMapping FunctionImportName="usp_DeleteLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_DeleteLocal" />
+    <FunctionImportMapping FunctionImportName="usp_DeletePaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_DeletePaciente" />
+    <FunctionImportMapping FunctionImportName="usp_DeletePsicologo" FunctionName="ClinicaPsicologicaModel.Store.usp_DeletePsicologo" />
+    <FunctionImportMapping FunctionImportName="usp_DeleteTratamiento" FunctionName="ClinicaPsicologicaModel.Store.usp_DeleteTratamiento" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarAdministrador" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarAdministrador" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarCita" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarCita" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarConsultorio" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarConsultorio" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarLocal" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarPaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarPaciente" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarPsicologo" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarPsicologo" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarTratamiento" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarTratamiento" />
+    <FunctionImportMapping FunctionImportName="usp_EliminarUbigeo" FunctionName="ClinicaPsicologicaModel.Store.usp_EliminarUbigeo" />
+    <FunctionImportMapping FunctionImportName="usp_InsertAdministrador" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertAdministrador" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarAdministrador" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarAdministrador" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarCita" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarCita" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarConsultorio" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarConsultorio" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarLocal" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarPaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarPaciente" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarPsicologo" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarPsicologo" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarTratamiento" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarTratamiento" />
+    <FunctionImportMapping FunctionImportName="usp_InsertarUbigeo" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertarUbigeo" />
+    <FunctionImportMapping FunctionImportName="usp_InsertLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_InsertLocal" />
+    <FunctionImportMapping FunctionImportName="usp_ListarAdmins" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarAdmins">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarAdmins_Result">
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="departamento" ColumnName="departamento" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="distrito" ColumnName="distrito" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="estadoAdmin" ColumnName="estadoAdmin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarCitas" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarCitas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarCitas_Result">
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="nom_pac" ColumnName="nom_pac" />
+          <ScalarProperty Name="ape_pac" ColumnName="ape_pac" />
+          <ScalarProperty Name="tel_paciente" ColumnName="tel_paciente" />
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+          <ScalarProperty Name="dir_local" ColumnName="dir_local" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+          <ScalarProperty Name="tel_local" ColumnName="tel_local" />
+          <ScalarProperty Name="id_psicologo" ColumnName="id_psicologo" />
+          <ScalarProperty Name="nomPsico" ColumnName="nomPsico" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="estadoCita" ColumnName="estadoCita" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarConsultorio" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarConsultorio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarConsultorio_Result">
+          <ScalarProperty Name="id_consultorio" ColumnName="id_consultorio" />
+          <ScalarProperty Name="Telefono_consultorio" ColumnName="Telefono_consultorio" />
+          <ScalarProperty Name="Inicio_consultorio" ColumnName="Inicio_consultorio" />
+          <ScalarProperty Name="Fin_consultorio" ColumnName="Fin_consultorio" />
+          <ScalarProperty Name="Direccion_local_consultorio" ColumnName="Direccion_local_consultorio" />
+          <ScalarProperty Name="Telefono_local_consultorio" ColumnName="Telefono_local_consultorio" />
+          <ScalarProperty Name="Correo_local_consultorio" ColumnName="Correo_local_consultorio" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarLocal">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarLocal_Result">
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="tel_admin" ColumnName="tel_admin" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarLocales" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarLocales">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarLocales_Result">
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="tel_admin" ColumnName="tel_admin" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarPaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarPaciente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarPaciente_Result">
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="nombre_departamento" ColumnName="nombre_departamento" />
+          <ScalarProperty Name="nombre_provincia" ColumnName="nombre_provincia" />
+          <ScalarProperty Name="nombre_distrito" ColumnName="nombre_distrito" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="estadoPac" ColumnName="estadoPac" />
+          <ScalarProperty Name="Fecha_registro" ColumnName="Fecha_registro" />
+          <ScalarProperty Name="Fecha_ult_modificacion" ColumnName="Fecha_ult_modificacion" />
+          <ScalarProperty Name="Usuario_registro" ColumnName="Usuario_registro" />
+          <ScalarProperty Name="Usuario_ult_modificacion" ColumnName="Usuario_ult_modificacion" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarPsicologo" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarPsicologo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarPsicologo_Result">
+          <ScalarProperty Name="id_psicologo" ColumnName="id_psicologo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+          <ScalarProperty Name="estadoPsico" ColumnName="estadoPsico" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarTratamiento" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarTratamiento">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarTratamiento_Result">
+          <ScalarProperty Name="id_tratamiento" ColumnName="id_tratamiento" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarUbigeo" FunctionName="ClinicaPsicologicaModel.Store.usp_ListarUbigeo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ListarUbigeo_Result">
+          <ScalarProperty Name="id_ubigeo" ColumnName="id_ubigeo" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="id_administrador" ColumnName="id_administrador" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_ObtenerDatosCitaPorPaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_ObtenerDatosCitaPorPaciente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_ObtenerDatosCitaPorPaciente_Result">
+          <ScalarProperty Name="NombrePaciente" ColumnName="NombrePaciente" />
+          <ScalarProperty Name="ApellidoPaciente" ColumnName="ApellidoPaciente" />
+          <ScalarProperty Name="FechaCita" ColumnName="FechaCita" />
+          <ScalarProperty Name="NombrePsicologo" ColumnName="NombrePsicologo" />
+          <ScalarProperty Name="IdConsultorio" ColumnName="IdConsultorio" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_PsicologosDisponiblesEnHora" FunctionName="ClinicaPsicologicaModel.Store.usp_PsicologosDisponiblesEnHora">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_PsicologosDisponiblesEnHora_Result">
+          <ScalarProperty Name="NombrePsicologo" ColumnName="NombrePsicologo" />
+          <ScalarProperty Name="Especialidad" ColumnName="Especialidad" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+          <ScalarProperty Name="HoraFin" ColumnName="HoraFin" />
+          <ScalarProperty Name="IdConsultorio" ColumnName="IdConsultorio" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_RegistrarHistorialClinico" FunctionName="ClinicaPsicologicaModel.Store.usp_RegistrarHistorialClinico" />
+    <FunctionImportMapping FunctionImportName="usp_TotalPacientesAnual" FunctionName="ClinicaPsicologicaModel.Store.usp_TotalPacientesAnual">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicaPsicologicaModel.usp_TotalPacientesAnual_Result">
+          <ScalarProperty Name="Año" ColumnName="Año" />
+          <ScalarProperty Name="TotalPacientes" ColumnName="TotalPacientes" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_UpdateAdministrador" FunctionName="ClinicaPsicologicaModel.Store.usp_UpdateAdministrador" />
+    <FunctionImportMapping FunctionImportName="usp_UpdateConsultorio" FunctionName="ClinicaPsicologicaModel.Store.usp_UpdateConsultorio" />
+    <FunctionImportMapping FunctionImportName="usp_UpdateLocal" FunctionName="ClinicaPsicologicaModel.Store.usp_UpdateLocal" />
+    <FunctionImportMapping FunctionImportName="usp_UpdatePaciente" FunctionName="ClinicaPsicologicaModel.Store.usp_UpdatePaciente" />
+    <FunctionImportMapping FunctionImportName="usp_UpdatePsicologo" FunctionName="ClinicaPsicologicaModel.Store.usp_UpdatePsicologo" />
+    <FunctionImportMapping FunctionImportName="usp_UpdateTratamiento" FunctionName="ClinicaPsicologicaModel.Store.usp_UpdateTratamiento" />
+  </EntityContainerMapping>
+</Mapping>

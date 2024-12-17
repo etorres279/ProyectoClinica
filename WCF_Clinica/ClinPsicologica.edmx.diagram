@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cfdcb39a9b494c84b03a63047c936a74" Name="Diagram1">
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_administrador" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_cita" Width="1.5" PointX="7.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_consultorio" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_historial_clinico" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_horario" Width="1.5" PointX="9.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_local" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_paciente" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_psicologo" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_tratamiento" Width="1.5" PointX="7.5" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_Ubigeo" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClinicaPsicologicaModel.tb_Usuarios" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_admini__id_ub__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_local__id_adm__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_cita__id_hist__324172E1" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_consul__id_lo__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.fk_consultorio" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_histor__id_pa__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.fk_psicologo" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_local__id_ubi__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_pacien__id_ub__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.FK__tb_psicol__id_ub__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="ClinicaPsicologicaModel.tb_tratamiento_historial" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

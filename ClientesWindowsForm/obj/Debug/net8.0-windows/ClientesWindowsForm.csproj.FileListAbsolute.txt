@@ -1,0 +1,372 @@
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.exe
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.deps.json
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.runtimeconfig.json
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.pdb
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.Extensions.ObjectPool.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Xml.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Duplex.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Federation.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Http.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetFramingBase.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetNamedPipe.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetTcp.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Primitives.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Security.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.AssemblyReference.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmActualizarCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmActualizarPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmActualizarPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmConsultarCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmConsultarPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmConsultarPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmLogin.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmNuevaCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmNuevoPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmNuevoPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.MDIPrincipal.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.GenerateResource.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.AssemblyInfoInputs.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.AssemblyInfo.cs
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.CoreCompileInputs.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\Clientes.D83D1F7F.Up2Date
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\refint\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.pdb
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.genruntimeconfig.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ref\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.Properties.Resources.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.AssemblyReference.cache
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmActualizarCita.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmActualizarPaciente.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmActualizarPsicologo.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmCita.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmConsultarCita.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmConsultarPaciente.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmConsultarPsicologo.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmLogin.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmNuevaCita.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmNuevoPaciente.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmNuevoPsicologo.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmPaciente.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmPsicologo.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.MDIPrincipal.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.Properties.Resources.resources
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.GenerateResource.cache
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.GeneratedMSBuildEditorConfig.editorconfig
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.AssemblyInfoInputs.cache
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.AssemblyInfo.cs
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.CoreCompileInputs.cache
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.exe
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.deps.json
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.runtimeconfig.json
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.pdb
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.Extensions.ObjectPool.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.WsTrust.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.Saml.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Xml.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Duplex.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Federation.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Http.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetFramingBase.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetNamedPipe.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetTcp.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Primitives.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Security.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Federation.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Http.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetFramingBase.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetNamedPipe.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetTcp.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Primitives.resources.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\Clientes.D83D1F7F.Up2Date
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\refint\ClientesWindowsForm.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.pdb
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.genruntimeconfig.cache
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ref\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.exe
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.deps.json
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.runtimeconfig.json
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ClientesWindowsForm.pdb
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.Extensions.ObjectPool.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Xml.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Duplex.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Federation.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Http.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetFramingBase.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetNamedPipe.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.NetTcp.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Primitives.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\System.ServiceModel.Security.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Http.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetFramingBase.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetNamedPipe.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.NetTcp.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\cs\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\de\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\es\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\fr\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\it\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ja\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ko\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pl\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\pt-BR\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\ru\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\tr\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hans\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\bin\Debug\net8.0-windows\zh-Hant\System.ServiceModel.Primitives.resources.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.AssemblyReference.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmActualizarCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmActualizarPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmActualizarPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmConsultarCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmConsultarPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmConsultarPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmLogin.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmNuevaCita.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmNuevoPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmNuevoPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.frmPaciente.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.frmPsicologo.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\CitaWindowsForm.MDIPrincipal.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.Properties.Resources.resources
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.GenerateResource.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.AssemblyInfoInputs.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.AssemblyInfo.cs
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.csproj.CoreCompileInputs.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\Clientes.D83D1F7F.Up2Date
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\refint\ClientesWindowsForm.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.pdb
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ClientesWindowsForm.genruntimeconfig.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\ClientesWindowsForm\obj\Debug\net8.0-windows\ref\ClientesWindowsForm.dll

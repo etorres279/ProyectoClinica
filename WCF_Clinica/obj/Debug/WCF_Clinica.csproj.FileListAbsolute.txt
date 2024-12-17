@@ -1,0 +1,36 @@
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.dll.config
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.pdb
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.xml
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.csproj.AssemblyReference.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.csproj.CoreCompileInputs.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clin.13B78635.Up2Date
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v9\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.pdb
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.dll.config
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.pdb
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.SqlServer.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.xml
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.SqlServer.xml
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.csproj.AssemblyReference.cache
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.csproj.CoreCompileInputs.cache
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clin.13B78635.Up2Date
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.dll
+E:\pruebas\NUEVO3.0\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.pdb
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.dll.config
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\bin\Debug\WCF_Clinica.pdb
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.xml
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.csproj.AssemblyReference.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.csproj.CoreCompileInputs.cache
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clin.13B78635.Up2Date
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.dll
+D:\Ciclo 5\2 Proyecto Tecnologico\Proyecto\v11\ClinicaPsicologica\WCF_Clinica\obj\Debug\WCF_Clinica.pdb
